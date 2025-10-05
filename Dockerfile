@@ -52,7 +52,7 @@ RUN umask 0002 && \
     touch /etc/nginx/server-override.conf && \
     touch /etc/nginx/location-override.conf
 
-VOLUME /config
+#VOLUME /config
 VOLUME /attach
 VOLUME /plugin
 EXPOSE 8000
