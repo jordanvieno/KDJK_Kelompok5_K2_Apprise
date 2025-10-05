@@ -53,7 +53,7 @@ RUN umask 0002 && \
     touch /etc/nginx/location-override.conf
 
 #VOLUME /config
-VOLUME /attach
-VOLUME /plugin
+#VOLUME /attach
+#VOLUME /plugin
 EXPOSE 8000
 CMD ["/opt/apprise/webapp/supervisord-startup"]
