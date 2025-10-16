@@ -27,3 +27,5 @@ cryptography
 
 # prometheus metrics
 django-prometheus
+dj-database-url
+psycopg2-binary
