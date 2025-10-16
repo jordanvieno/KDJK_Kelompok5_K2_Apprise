@@ -4,3 +4,5 @@ pytest
 pytest-cov
 tox
 ruff
+dj-database-url
+psycopg2-binary
